@@ -21,7 +21,7 @@ body {
 }
 
 .container :where(p) {
-    width: 80%;
+
     margin: 0 auto;
     font-size: 1.5em;
 }
@@ -147,5 +147,44 @@ h3, p {
     justify-content: space-around;
     align-items: stretch;
     flex-direction: row;
+}
+
+.learn-more img {
+    display: flex;
+    align-content: center;
+    width: 30vw;
+    height: 30vh;
+    margin: 2em auto;
+    border-radius: 25px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5vw;
+}
+
+.team__text {
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.team__text p {
+    text-align: justify;
+}
+
+.team__desc {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.team__text img {
+    width: 20vw;
+    align-self: center;
+
 }
 

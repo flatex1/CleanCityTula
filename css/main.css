@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Random;
+    src: url(../fonts/RG-StandardBook.ttf);
+}
+
+@font-face {
+    font-family: Random Spacious;
+    src: url(../fonts/RG-SpaciousBook.ttf);
+}
+
+/* Стили для основного контейнера */
+body {
+    font-family: Random, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-text h1 {
+    font-size: 2em;
+    font-family: Random Spacious, Arial, sans-serif;
+}
+
+.container :where(p) {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Стили для главного экрана */
+.main-screen {
+    position: relative;
+    height: 100vh;
+}
+
+.background-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgroung-image-main.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+/* Стили для заголовков и текста */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+section:not(:first-child):after {
+    display: flex;
+    content: "";
+    border: 1px solid rgb(85,158,131);
+    width: auto;
+    margin: 3em 0;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3, p {
+    font-size: 2em;
+}
+
+/* Стили для кнопок */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(85,158,131, 0.5);
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-decoration: none;
+    border: 1px solid rgb(85,158,131);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+
+.button:hover {
+    font-size: 1.55em;
+}
+
+/* Остальные стили */
+.description,
+.learn-more,
+.main-questions,
+.team {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+#site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(85,158,131, 1);
+    /* Полностью непрозрачный цвет */
+    transition: background-color 0.3s;
+    /* Для анимации изменения цвета */
+    z-index: 1000;
+    border-radius: 0 0 1em 1em;
+}
+
+
+.question {
+    padding: 1.5em;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.main-questinons__questions {
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+}
+

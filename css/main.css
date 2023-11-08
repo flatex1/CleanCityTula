@@ -40,7 +40,7 @@ nav ul {
 
 nav li {
     display: inline;
-    margin: 0 15px;
+    margin: 15px 15px;
 }
 
 nav a {
@@ -132,7 +132,15 @@ h3, p {
     transition: background-color 0.3s;
     /* Для анимации изменения цвета */
     z-index: 1000;
-    border-radius: 0 0 1em 1em;
+
+}
+
+#site-header ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
 }
 
 
@@ -140,7 +148,7 @@ h3, p {
     padding: 1.5em;
     border: 1px solid black;
     border-radius: 10px;
-    max-width: 22vw;
+    min-width: 22vw;
 }
 
 .main-questinons__questions {

@@ -273,7 +273,8 @@ border: 1px solid black;
 }
 
 .how-it-works__container {
-    padding: 0 20vh;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .how-main {
@@ -291,7 +292,7 @@ flex-direction: column;
 }
 
 .how-item {
-    max-width: 30vw;
+    min-width: 35%;
     text-align: justify;
     align-self: center;
     padding: 1em;

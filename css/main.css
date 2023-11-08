@@ -312,6 +312,7 @@ footer {
     align-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
 }
 
 .footer-content {
@@ -322,6 +323,8 @@ footer {
     flex-direction: row;
     align-items: baseline;
     gap: 2em;
+    padding: 0 -15px;
+    margin: 0 15px;
 }
 
 .footer-section {

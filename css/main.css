@@ -227,7 +227,8 @@ h3, p {
 }
 
 .bonus-item {
-    width: 24em;
+    max-width: 18em;
+    min-width: 8em;
     display: flex;
     flex-direction: column;
 margin: 1vw;
@@ -238,9 +239,7 @@ margin: 1vw;
 }
 
 .bonus-item img {
-    width: 10vw;
-
-    
+    min-width: 10vw;
 }
 
 .bonus-item p {

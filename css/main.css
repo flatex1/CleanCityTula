@@ -303,6 +303,34 @@ flex-direction: column;
     margin: 1em 0;
 }
 
-.team  {
-    
+footer {
+    display: flex;
+    background-color: rgb(85,158,131);
+    color: white;
+    font-size: small;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 4em;
+}
+
+.footer-section {
+    display: flex;
+    gap: 3em;
+}
+
+.footer-section__desc {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }

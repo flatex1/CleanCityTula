@@ -204,7 +204,6 @@ h3, p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .bonus-companies {
@@ -244,6 +243,10 @@ margin: 1vw;
 
 .bonus-item p {
     margin: 1em 0;
+}
+
+.bonus__title {
+    text-align: center;
 }
 
 .bonus-item img:after {

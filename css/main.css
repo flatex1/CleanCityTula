@@ -148,7 +148,7 @@ h3, p {
     padding: 1.5em;
     border: 1px solid black;
     border-radius: 10px;
-    min-width: 22vw;
+    max-width: 21em;
 }
 
 .main-questinons__questions {
@@ -213,7 +213,8 @@ h3, p {
 }
 
 .bonus-companies img {
-    width: 10vw;
+    min-width: 10vw;
+    padding: 5vh;
 }
 
 .bonus-desc {
@@ -224,7 +225,7 @@ h3, p {
 }
 
 .bonus-item {
-    max-width: 20vw;
+    width: 24em;
     display: flex;
     flex-direction: column;
 margin: 1vw;

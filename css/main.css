@@ -164,8 +164,8 @@ h3, p {
 .learn-more img {
     display: flex;
     align-content: center;
-    max-width: 30vw;
-   
+    width: 50%;
+    min-width: 50vh;
     margin: 2em auto;
     border-radius: 25px;
 }

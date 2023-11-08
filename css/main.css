@@ -321,7 +321,7 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
-    gap: 4em;
+    gap: 2em;
 }
 
 .footer-section {

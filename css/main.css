@@ -139,11 +139,12 @@ h3, p {
     padding: 1.5em;
     border: 1px solid black;
     border-radius: 10px;
-
+    max-width: 22vw;
 }
 
 .main-questinons__questions {
     display: flex;
+    flex-wrap: wrap;
     gap: 2em;
     justify-content: space-around;
     align-items: stretch;
@@ -153,8 +154,8 @@ h3, p {
 .learn-more img {
     display: flex;
     align-content: center;
-    width: 30vw;
-    height: 30vh;
+    max-width: 30vw;
+   
     margin: 2em auto;
     border-radius: 25px;
 }
@@ -163,7 +164,6 @@ h3, p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 5vw;
 }
 
 .team__text {

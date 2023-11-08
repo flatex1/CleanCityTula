@@ -13,6 +13,7 @@ body {
     font-family: Random, Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
 }
 
 .centered-text h1 {
@@ -188,3 +189,73 @@ h3, p {
 
 }
 
+.bonus-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.5em;
+}
+
+.bonus-companies {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-content: center;
+}
+
+.bonus-companies img {
+    width: 10vw;
+}
+
+.bonus-desc {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.bonus-item {
+    max-width: 20vw;
+    display: flex;
+    flex-direction: column;
+margin: 1vw;
+    padding: 1em;
+    border: 1px solid rgb(85,158,131);
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.bonus-item img {
+    width: 10vw;
+
+    
+}
+
+.bonus-item p {
+    margin: 1em 0;
+}
+
+.bonus-item img:after {
+    display: flex;
+    width: 100%;
+content: "";
+
+border: 1px solid black;
+}
+
+.trade-button {
+    width: auto;
+    
+}
+
+.count-bonuses {
+    font-size: smaller;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+}

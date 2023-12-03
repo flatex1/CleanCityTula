@@ -196,6 +196,21 @@ h3, p {
     text-align: justify;
 }
 
+.img-gallery {
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.img-gallery img {
+    display: flex;
+    max-width: 30vh;
+    height: auto;
+    flex-wrap: wrap;
+    flex: 1 1 50px;
+    margin: 2rem 0;
+}
+
 .team__desc {
     display: flex;
     flex-direction: column;

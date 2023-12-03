@@ -25,7 +25,9 @@ body {
 }
 
 .container :where(p) {
-
+    max-width: 80vh;
+    display: flex;
+    flex: 1 1 50px;
     margin: 0 auto;
     font-size: 1.5em;
 }
@@ -116,6 +118,11 @@ h3, p {
 }
 
 /* Остальные стили */
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
 .description,
 .learn-more,
 .main-questions,

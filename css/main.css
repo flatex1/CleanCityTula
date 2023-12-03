@@ -293,16 +293,23 @@ flex-direction: column;
 .how-main__desc, .how-footer {
     font-size: 1.5em;
     margin: 1em 0;
+display: flex;
+    max-width: 80vh;
+    align-self: center;
+    flex: 1 1 20px;
 }
 
 .how-item {
-    min-width: 35%;
+    
     text-align: justify;
     align-self: center;
     padding: 1em;
     border: 1px solid rgb(85, 158, 131, 1);
     border-radius: 15px;
     margin: 1em 0;
+
+    max-width: 50vh;
+    flex: 1 1 50px;
 }
 
 footer {
